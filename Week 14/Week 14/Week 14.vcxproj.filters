@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="해더 파일">
+      <UniqueIdentifier>{7d2cb596-ca97-4c0d-ba39-1b1138b7f532}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fprintf.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fscanf.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fgets.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fwrite.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fread.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fseek.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="func_ptr.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="callback.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="my_math.h">
+      <Filter>해더 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
